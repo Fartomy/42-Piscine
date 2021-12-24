@@ -1,0 +1,20 @@
+#include <unistd.h>
+
+int main(int ac, char **av)
+{
+	int i;
+
+	i = 0;
+	if(ac < 2)
+		write(1, "\n", 1);
+	if(ac >= 2)
+	{
+		ac--;
+		while(av[ac][i])
+		{
+			write(1, &av[ac][i], 1);
+			i++;
+		}
+		write(1, "\n", 1);
+	}
+}

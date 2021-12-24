@@ -1,0 +1,5 @@
+Credentials cache: API:8F803543-73C9-4FE0-8DCA-BC6376FA8E26
+        Principal: ftekdrmi@42ISTANBUL.COM.TR
+
+  Issued                Expires               Principal
+Oct 21 13:23:37 2021  Oct 21 23:23:37 2021  krbtgt/42ISTANBUL.COM.TR@42ISTANBUL.COM.TR
